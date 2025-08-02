@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="img/logoo.png">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="img/logo negro.png" alt="car logo"></a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <ul class="navbar">
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#ride">Servicios</a></li>
+            <li><a href="#services">Catalogo</a></li>
+            <li><a href="#about">Nosotros</a></li>
+            <li><a href="#reviews">Reseñas</a></li>
+            <li><a href="#contact">Contactanos</a></li>
+        </ul>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Cambiar modo claro/oscuro">
+          <!-- Icono y texto se insertan por JS -->
+        </button>
+
+      
+    </header>
+    <section class="home" id="home">
+      <div class="home-center">
+        <img src="img/logoo.png" alt="Logo empresa" class="home-logo">
+        <p class="home-desc">Desarrollamos soluciones web y aplicaciones a medida para potenciar tu negocio. Innovación, tecnología y diseño a tu alcance.</p>
+      </div>
+    </section>
+
+    <section class="ride" id="ride">
+        <div class="heading">
+            <span>Servicios</span>
+            <h1>Digitaliza tu negocio con nosotros y lleva tu marca al siguiente nivel.</h1>
+        </div>
+        <div class="ride-container">
+            <div class="box">
+                <i class="ri-map-2-line"></i>
+                <h2>Trabajos internacionales</h2>
+                <p>Consulta con nosotros desde cualquier país.</p>
+            </div>
+
+            <div class="box">
+                <i class="ri-calendar-line"></i>
+                <h2>Cumplimiento de fechas</h2>
+                <p>Responsabilidad y puntualidad al entregar trabajos en fechas indicadas</p>
+            </div>
+
+            <div class="box">
+                <i class="ri-bookmark-line"></i>
+                <h2>Asesoramiento</h2>
+                <p>Te ayudamos a tomar desiciones y estrategias</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="heading">
+            <h1><span>Catalogo</span></h1>
+            <h4>Elige el plan que mejor se adapte a tu negocio! <span>Digitalizar es un arte!</span></h4>
+        </div>
+        <div class="services-container">
+            <div class="box" data-plan="basica">
+                <div class="box-img"><img src="img/monedahierroweb.webp" alt="car image"></div>
+                <p>normal</p>
+                <h3>Membresia Basica</h3>
+                <h2>$25 a $55 <span>/al mes.</span></h2>
+                <a href="#" class="btn details-btn">Ver detalles</a>
+            </div>
+
+            <div class="box" data-plan="pro">
+                <div class="box-img"><img src="img/monedaoro.png" alt="car image"></div>
+                <p>pro</p>
+                <h3>Membresia pro</h3>
+                <h2>$80 <span>/al mes.</span></h2>
+                <a href="#" class="btn details-btn">Ver detalles</a>
+            </div>
+
+            <div class="box" data-plan="premium">
+                <div class="box-img"><img src="img/monedadiamante.png" alt="car image"></div>
+                <p>premium </p>
+                <h3>membresia premium</h3>
+                <h2>$120 <span>/al mes.</span></h2>
+                <a href="#" class="btn details-btn">Ver detalles</a>
+            </div>
+
+            <div class="box" data-plan="landing">
+                <div class="box-img"><img src="img/landing.png" alt="car image"></div>
+                <p>landing page</p>
+                <h3>Página web simple y avanzada</h3>
+                <h2>$450 a $600 <span>/unico pago.</span></h2>
+                <a href="#" class="btn details-btn">Ver detalles</a>
+            </div>
+
+            <div class="box" data-plan="appweb">
+                <div class="box-img"><img src="img/appweb.png" alt="car image"></div>
+                <p>app web</p>
+                <h3>Aplicaión web</h3>
+                <h2>$600 a $1000 <span>/unico pago.</span></h2>
+                <a href="#" class="btn details-btn">Ver detalles</a>
+            </div>
+
+            <div class="box" data-plan="appmovil">
+                <div class="box-img"><img src="img/appmovil.png" alt="car image"></div>
+                <p>app movil</p>
+                <h3>Aplicaión web</h3>
+                <h2>$650 a $3500 <span>/unico pago.</span></h2>
+                <a href="#" class="btn details-btn">Ver detalles</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="heading">
+            <span>Nosotros</span>
+            <h1>Mejor agencia de Bolivia</h1>
+        </div>
+        <div class="about-container">
+            <div class="about-img"><img src="img/logo negro.png" alt="about banner"></div>
+            <div class="about-text">
+                <span>Quienes somos</span>
+                <p>En PENSALA, somos tu aliado digital. Creamos páginas web impactantes, landing pages efectivas, aplicaciones web y móviles intuitivas.</p>
+                <p>Trabajamos desde cualquier país, asegurando puntualidad en cada entrega. Además, te ofrecemos asesoramiento estratégico para que tomes las mejores decisiones y alcances tus metas online.</p>
+                <a href="#services" class="btn">Catalogo</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews" id="reviews">
+        <div class="heading">
+            <span>Reseñas</span>
+            <h1>Que dicen nuestros clientes?</h1>
+        </div>
+        <div class="reviews-container">
+            <div class="box">
+                <div class="rev-img"><img src="https://cdn.pixabay.com/photo/2017/11/10/05/48/user-2935527_1280.png" alt="review image"></div>
+                <h2>Gabriel Peña</h2>
+                <div class="stars">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-half-fill"></i>
+                </div>
+                <p>Trabajar con pensala fue una experiencia increíble. Necesitábamos una aplicación web a medida y no solo entregaron un producto impecable y funcional, sino que su asesoramiento estratégico fue clave para tomar decisiones cruciales. Cumplieron con los plazos a la perfección y siempre hubo una comunicación fluida. ¡Totalmente recomendados!</p>
+            </div>
+
+            <div class="box">
+                <div class="rev-img"><img src="https://cdn.pixabay.com/photo/2017/11/10/05/48/user-2935527_1280.png" alt="review image"></div>
+                <h2>Omar Raul</h2>
+                <div class="stars">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                </div>
+                <p>Estábamos buscando crear nuestra primera tienda de e-commerce y [Nombre de tu Empresa] lo hizo posible de forma excepcional. Desde el diseño de la landing page hasta la integración de pagos, todo fue muy profesional. La puntualidad en la entrega fue impresionante y el resultado final ha superado todas nuestras expectativas. ¡Ya estamos viendo un crecimiento significativo en ventas!</p>
+            </div>
+
+            <div class="box">
+                <div class="rev-img"><img src="https://cdn.pixabay.com/photo/2017/11/10/05/48/user-2935527_1280.png" alt="review image"></div>
+                <h2>Rosa Esther</h2>
+                <div class="stars">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                </div>
+                <p>Desde Colombia, buscábamos un equipo con experiencia y capacidad para manejar proyectos internacionales. [Nombre de tu Empresa] demostró ser la elección correcta. La comunicación fue impecable a pesar de la distancia, y su compromiso con las fechas de entrega nos dio mucha tranquilidad. Su asesoramiento constante fue invaluable. Un socio digital confiable para cualquier empresa global.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="heading">
+            <span>Contactanos</span>
+            <h1>¡Estamos para ayudarte!</h1>
+        </div>
+        <div class="contact-container">
+            <div class="contact-box">
+                <a href="https://wa.link/8kp5j4" target="_blank" class="contact-link">
+                    <i class="ri-whatsapp-fill"></i>
+                    <span>WhatsApp</span>
+                </a>
+            </div>
+            <div class="contact-box">
+                <a href="https://www.instagram.com/pensala.http?igsh=MWVkNzgyZjltNGFvYw==" target="_blank" class="contact-link">
+                    <i class="ri-instagram-line"></i>
+                    <span>Instagram</span>
+                </a>
+            </div>
+            <div class="contact-box">
+                <a href="mailto:tuemail@ejemplo.com" class="contact-link">
+                    <i class="ri-mail-line"></i>
+                    <span>Correo electrónico</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <div class="copyright">
+    <!-- Modal Detalles -->
+    <div id="details-modal" class="details-modal">
+        <div class="details-modal-content">
+            <span class="details-modal-close">&times;</span>
+            <h2 id="modal-title">Detalles</h2>
+            <ul id="modal-list" class="modal-list"></ul>
+        </div>
+    </div>
+        <p>&#169; <span>Pensala</span> consulta con nosotros!.</p>
+        <div class="social">
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+            <a href="https://www.tiktok.com/@pensala"><i class="ri-tiktok-fill"></i></a>
+            <a href="https://www.instagram.com/pensala.http?igsh=MWVkNzgyZjltNGFvYw=="><i class="ri-instagram-line"></i></a>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script>
+        // Iconos para el botón de modo
+        const sunIcon = `<svg class="toggle-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="2"/><path d="M12 1V3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M12 21V23" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M4.22 4.22L5.64 5.64" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M18.36 18.36L19.78 19.78" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M1 12H3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M21 12H23" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M4.22 19.78L5.64 18.36" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M18.36 5.64L19.78 4.22" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>`;
+        const moonIcon = `<svg class="toggle-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 12.79A9 9 0 1111.21 3a7 7 0 109.79 9.79z" stroke="currentColor" stroke-width="2" fill="none"/></svg>`;
+        // Unificación: usar 'dark-mode' y 'theme' en localStorage
+        const themeToggle = document.getElementById('theme-toggle');
+        const navbarLogo = document.querySelector('header .logo img');
+        const aboutImg = document.querySelector('.about-img img');
+
+        function setImagesByTheme(isDark) {
+            if (isDark) {
+                navbarLogo.src = 'img/logoblanco.png';
+                aboutImg.src = 'img/logoblanco.png';
+            } else {
+                navbarLogo.src = 'img/logo negro.png';
+                aboutImg.src = 'img/logo negro.png';
+            }
+        }
+
+        function setTheme(isDark) {
+            document.body.classList.toggle('dark-mode', isDark);
+            setImagesByTheme(isDark);
+            const toggleBtn = document.getElementById('theme-toggle');
+            if (toggleBtn) {
+                toggleBtn.innerHTML = (isDark ? moonIcon : sunIcon) + `<span class="toggle-label">${isDark ? 'Oscuro' : 'Claro'}</span>`;
+            }
+            localStorage.setItem('theme', isDark ? 'dark' : 'light');
+        }
+        // Al cargar, si el botón está vacío, inserta el icono y texto inicial
+        // Solo un listener, fuerza el cambio de imagen al cargar
+        window.addEventListener('DOMContentLoaded', () => {
+            const savedTheme = localStorage.getItem('theme');
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            const isDark = savedTheme === 'dark' || (!savedTheme && prefersDark);
+            setTheme(isDark);
+            // Forzar el src por si el HTML tiene una imagen preseleccionada
+            setImagesByTheme(isDark);
+        });
+
+        themeToggle.addEventListener('click', () => {
+            const isDark = !document.body.classList.contains('dark-mode');
+            setTheme(isDark);
+        });
+    </script>
+</body>
+</html>
